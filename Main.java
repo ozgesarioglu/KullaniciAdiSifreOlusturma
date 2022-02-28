@@ -19,7 +19,7 @@ public class Main {
         if ((userName.equals("yazılımdili")) && (password.equals("java1234"))) {
             System.out.println("Giriş başarılı");
         }else if ((userName.equals("yazılımdili")) && (!password.equals("java1234"))) {
-            System.out.println("Şifreniz yanlış. Şifreniz sıfırlamak ister misiniz?");
+            System.out.println("Şifreniz yanlış. Şifrenizi sıfırlamak ister misiniz?");
 
             System.out.println("1-Evet\n2-Hayır");
             select = (input.nextLine());
